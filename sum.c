@@ -6,7 +6,7 @@ void main()
    printf(" Enter the number :   ");
    scanf("%d",&n);
    for(i=1;i<=n;i++)
-   { num=num+1 ;
+   { num=num+i ;
    }
    printf(" sum of the first %d natural  number : %d",n,num );
    return 0;
